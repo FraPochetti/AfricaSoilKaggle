@@ -1,0 +1,64 @@
+=======================================
+SOC elasticnet
+=======================================
+Fitting 5 folds for each of 20 candidates, totalling 100 fits
+[mean: 0.88777, std: 0.02451, params: {'alpha': 0.001, 'l1_ratio': 1},
+ mean: 0.88533, std: 0.02706, params: {'alpha': 0.01, 'l1_ratio': 0.1},
+ mean: 0.88439, std: 0.02879, params: {'alpha': 0.01, 'l1_ratio': 0.01},
+ mean: 0.88211, std: 0.02705, params: {'alpha': 0.01, 'l1_ratio': 0.001},
+ mean: 0.88211, std: 0.02705, params: {'alpha': 0.01, 'l1_ratio': 0.001},
+ mean: 0.87237, std: 0.02991, params: {'alpha': 0.1, 'l1_ratio': 0.001},
+ mean: 0.87237, std: 0.02991, params: {'alpha': 0.1, 'l1_ratio': 0.001},
+ mean: 0.86929, std: 0.02547, params: {'alpha': 0.001, 'l1_ratio': 0.1},
+ mean: 0.86610, std: 0.03124, params: {'alpha': 0.1, 'l1_ratio': 0.01},
+ mean: 0.86256, std: 0.02642, params: {'alpha': 0.001, 'l1_ratio': 0.01},
+ mean: 0.86187, std: 0.02648, params: {'alpha': 0.001, 'l1_ratio': 0.001},
+ mean: 0.86187, std: 0.02648, params: {'alpha': 0.001, 'l1_ratio': 0.001},
+ mean: 0.83853, std: 0.03361, params: {'alpha': 0.01, 'l1_ratio': 1},
+ mean: 0.83495, std: 0.03752, params: {'alpha': 1, 'l1_ratio': 0.001},
+ mean: 0.83495, std: 0.03752, params: {'alpha': 1, 'l1_ratio': 0.001},
+ mean: 0.83331, std: 0.03513, params: {'alpha': 0.1, 'l1_ratio': 0.1},
+ mean: 0.81652, std: 0.03915, params: {'alpha': 1, 'l1_ratio': 0.01},
+ mean: 0.73419, std: 0.03617, params: {'alpha': 0.1, 'l1_ratio': 1},
+ mean: 0.70456, std: 0.03877, params: {'alpha': 1, 'l1_ratio': 0.1},
+ mean: -0.00553, std: 0.00400, params: {'alpha': 1, 'l1_ratio': 1}]
+Saved model to elasticnet-SOC-2014-09-25 08:52:47.271151.pickle
+=======================================
+SOC svr
+=======================================
+Fitting 5 folds for each of 16 candidates, totalling 80 fits
+[mean: 0.91490, std: 0.02325, params: {'epsilon': 0.1, 'C': 1, 'kernel': 'linear'},
+ mean: 0.91476, std: 0.02547, params: {'epsilon': 0.01, 'C': 1, 'kernel': 'linear'},
+ mean: 0.91359, std: 0.02627, params: {'epsilon': 0.001, 'C': 1, 'kernel': 'linear'},
+ mean: 0.90230, std: 0.02651, params: {'epsilon': 0.1, 'C': 0.1, 'kernel': 'linear'},
+ mean: 0.89895, std: 0.02734, params: {'epsilon': 0.01, 'C': 0.1, 'kernel': 'linear'},
+ mean: 0.89871, std: 0.02680, params: {'epsilon': 0.001, 'C': 0.1, 'kernel': 'linear'},
+ mean: 0.86866, std: 0.02593, params: {'epsilon': 0.1, 'C': 0.01, 'kernel': 'linear'},
+ mean: 0.86503, std: 0.02588, params: {'epsilon': 0.01, 'C': 0.01, 'kernel': 'linear'},
+ mean: 0.86497, std: 0.02634, params: {'epsilon': 0.001, 'C': 0.01, 'kernel': 'linear'},
+ mean: 0.81111, std: 0.02708, params: {'epsilon': 0.1, 'C': 0.001, 'kernel': 'linear'},
+ mean: 0.80228, std: 0.02578, params: {'epsilon': 0.01, 'C': 0.001, 'kernel': 'linear'},
+ mean: 0.80220, std: 0.02607, params: {'epsilon': 0.001, 'C': 0.001, 'kernel': 'linear'},
+ mean: 0.77141, std: 0.04709, params: {'epsilon': 1, 'C': 0.01, 'kernel': 'linear'},
+ mean: 0.75455, std: 0.05248, params: {'epsilon': 1, 'C': 0.001, 'kernel': 'linear'},
+ mean: 0.75409, std: 0.04766, params: {'epsilon': 1, 'C': 0.1, 'kernel': 'linear'},
+ mean: 0.71638, std: 0.04727, params: {'epsilon': 1, 'C': 1, 'kernel': 'linear'}]
+Saved model to svr-SOC-2014-09-25 09:06:46.651682.pickle
+=======================================
+SOC ridge
+=======================================
+Fitting 5 folds for each of 4 candidates, totalling 20 fits
+[mean: 0.90668, std: 0.02669, params: {'alpha': 1},
+ mean: 0.90431, std: 0.03114, params: {'alpha': 0.1},
+ mean: 0.87690, std: 0.05127, params: {'alpha': 0.01},
+ mean: 0.82064, std: 0.08437, params: {'alpha': 0.001}]
+Saved model to ridge-SOC-2014-09-25 09:06:50.757604.pickle
+=======================================
+SOC lasso
+=======================================
+Fitting 5 folds for each of 4 candidates, totalling 20 fits
+[mean: 0.88777, std: 0.02451, params: {'alpha': 0.001},
+ mean: 0.83853, std: 0.03361, params: {'alpha': 0.01},
+ mean: 0.73419, std: 0.03617, params: {'alpha': 0.1},
+ mean: -0.00553, std: 0.00400, params: {'alpha': 1}]
+Saved model to lasso-SOC-2014-09-25 09:07:23.374368.pickle

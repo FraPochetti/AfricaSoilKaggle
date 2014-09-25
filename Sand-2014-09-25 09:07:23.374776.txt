@@ -1,0 +1,64 @@
+=======================================
+Sand elasticnet
+=======================================
+Fitting 5 folds for each of 20 candidates, totalling 100 fits
+[mean: 0.86582, std: 0.01466, params: {'alpha': 0.001, 'l1_ratio': 1},
+ mean: 0.86405, std: 0.01674, params: {'alpha': 0.01, 'l1_ratio': 0.1},
+ mean: 0.86247, std: 0.02001, params: {'alpha': 0.01, 'l1_ratio': 0.01},
+ mean: 0.86100, std: 0.02011, params: {'alpha': 0.01, 'l1_ratio': 0.001},
+ mean: 0.86100, std: 0.02011, params: {'alpha': 0.01, 'l1_ratio': 0.001},
+ mean: 0.85868, std: 0.01184, params: {'alpha': 0.001, 'l1_ratio': 0.1},
+ mean: 0.85745, std: 0.02020, params: {'alpha': 0.1, 'l1_ratio': 0.001},
+ mean: 0.85745, std: 0.02020, params: {'alpha': 0.1, 'l1_ratio': 0.001},
+ mean: 0.85403, std: 0.01163, params: {'alpha': 0.001, 'l1_ratio': 0.01},
+ mean: 0.85353, std: 0.01166, params: {'alpha': 0.001, 'l1_ratio': 0.001},
+ mean: 0.85353, std: 0.01166, params: {'alpha': 0.001, 'l1_ratio': 0.001},
+ mean: 0.85168, std: 0.02064, params: {'alpha': 0.1, 'l1_ratio': 0.01},
+ mean: 0.79715, std: 0.03220, params: {'alpha': 0.01, 'l1_ratio': 1},
+ mean: 0.79501, std: 0.03103, params: {'alpha': 1, 'l1_ratio': 0.001},
+ mean: 0.79501, std: 0.03103, params: {'alpha': 1, 'l1_ratio': 0.001},
+ mean: 0.78345, std: 0.03509, params: {'alpha': 0.1, 'l1_ratio': 0.1},
+ mean: 0.74437, std: 0.04128, params: {'alpha': 1, 'l1_ratio': 0.01},
+ mean: 0.67993, std: 0.03427, params: {'alpha': 0.1, 'l1_ratio': 1},
+ mean: 0.66602, std: 0.03471, params: {'alpha': 1, 'l1_ratio': 0.1},
+ mean: -0.00218, std: 0.00249, params: {'alpha': 1, 'l1_ratio': 1}]
+Saved model to elasticnet-Sand-2014-09-25 09:11:28.495210.pickle
+=======================================
+Sand svr
+=======================================
+Fitting 5 folds for each of 16 candidates, totalling 80 fits
+[mean: 0.87969, std: 0.00970, params: {'epsilon': 0.1, 'C': 1, 'kernel': 'linear'},
+ mean: 0.87908, std: 0.01257, params: {'epsilon': 0.01, 'C': 1, 'kernel': 'linear'},
+ mean: 0.87892, std: 0.01254, params: {'epsilon': 0.001, 'C': 1, 'kernel': 'linear'},
+ mean: 0.87734, std: 0.00914, params: {'epsilon': 0.1, 'C': 0.1, 'kernel': 'linear'},
+ mean: 0.87720, std: 0.01220, params: {'epsilon': 0.01, 'C': 0.1, 'kernel': 'linear'},
+ mean: 0.87681, std: 0.01196, params: {'epsilon': 0.001, 'C': 0.1, 'kernel': 'linear'},
+ mean: 0.85775, std: 0.01987, params: {'epsilon': 0.1, 'C': 0.01, 'kernel': 'linear'},
+ mean: 0.85696, std: 0.01961, params: {'epsilon': 0.01, 'C': 0.01, 'kernel': 'linear'},
+ mean: 0.85644, std: 0.01973, params: {'epsilon': 0.001, 'C': 0.01, 'kernel': 'linear'},
+ mean: 0.79380, std: 0.04001, params: {'epsilon': 0.01, 'C': 0.001, 'kernel': 'linear'},
+ mean: 0.79353, std: 0.03985, params: {'epsilon': 0.001, 'C': 0.001, 'kernel': 'linear'},
+ mean: 0.79200, std: 0.04106, params: {'epsilon': 0.1, 'C': 0.001, 'kernel': 'linear'},
+ mean: 0.71876, std: 0.02566, params: {'epsilon': 1, 'C': 1, 'kernel': 'linear'},
+ mean: 0.71804, std: 0.02254, params: {'epsilon': 1, 'C': 0.1, 'kernel': 'linear'},
+ mean: 0.69115, std: 0.02333, params: {'epsilon': 1, 'C': 0.01, 'kernel': 'linear'},
+ mean: 0.64912, std: 0.01237, params: {'epsilon': 1, 'C': 0.001, 'kernel': 'linear'}]
+Saved model to svr-Sand-2014-09-25 09:23:22.520904.pickle
+=======================================
+Sand ridge
+=======================================
+Fitting 5 folds for each of 4 candidates, totalling 20 fits
+[mean: 0.87891, std: 0.01128, params: {'alpha': 1},
+ mean: 0.87602, std: 0.01100, params: {'alpha': 0.1},
+ mean: 0.85826, std: 0.01579, params: {'alpha': 0.01},
+ mean: 0.80885, std: 0.02374, params: {'alpha': 0.001}]
+Saved model to ridge-Sand-2014-09-25 09:23:26.426246.pickle
+=======================================
+Sand lasso
+=======================================
+Fitting 5 folds for each of 4 candidates, totalling 20 fits
+[mean: 0.86582, std: 0.01466, params: {'alpha': 0.001},
+ mean: 0.79715, std: 0.03220, params: {'alpha': 0.01},
+ mean: 0.67993, std: 0.03427, params: {'alpha': 0.1},
+ mean: -0.00218, std: 0.00249, params: {'alpha': 1}]
+Saved model to lasso-Sand-2014-09-25 09:23:55.822710.pickle
